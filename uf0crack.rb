@@ -119,12 +119,15 @@ def crack(options)
     started_page
     password_found = false
 
-    Parallel.map(chunks, in_processes: Parallel.processor_count) do |chunk|
-      process_chunk(chunk)
+    begin
+      Parallel.map(chunks, in_processes: Parallel.processor_count) do |chunk|
+        process_chunk(chunk)
+      end
+    rescue Parallel::DeadWorker => e
+      # Hata olursa ekrana bir şey yazma
     end
-
-    puts "Password not found.".red unless password_found
   end
 end
+
 
 crack($options)
