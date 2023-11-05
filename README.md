@@ -31,10 +31,11 @@ Select the appropriate hash algorithm used by the target system.
 Run the UF0Crack tool, and it will attempt to match the hash with the passwords in the wordlist.
 Sample Usage:
 
-bash
-Copy code
-ruby uf0crack.rb -w wordlist.txt -h 5f4dcc3b5aa765d61d8327deb882cf99 -a md5
-Notes:
+# Example Using
+
+ruby uf0crack.rb -w wordlist.txt -h 33c5d4954da881814420f3ba39772644 -a md5
+
+# Notes
 
 UF0Crack aims to assist in legitimate scenarios such as password recovery and security assessments.
 Always ensure you have the appropriate permissions before attempting to crack any hash.
