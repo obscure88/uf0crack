@@ -7,6 +7,8 @@ A hash cracking tool that works with parallel programming.
 
 sudo chmod +x install.sh && ./install.sh
 
+# Project
+
 Project Name: UF0Crack - Universal Hash Cracking Tool
 
 Project Description:
