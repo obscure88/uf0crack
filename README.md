@@ -1,5 +1,6 @@
 # uf0crack
 A hash cracking tool that works with parallel programming.
+
 ![Ekran görüntüsü 2023-11-05 132653](https://github.com/thebunjo/uf0crack/assets/138582603/58acbf5d-ce0b-45ed-8cfa-7fbdd66745a5)
 
 
