@@ -124,7 +124,7 @@ def crack(options)
         process_chunk(chunk)
       end
     rescue Parallel::DeadWorker => e
-      # Hata olursa ekrana bir şey yazma
+
     end
   end
 end
